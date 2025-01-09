@@ -100,6 +100,7 @@ void loop()
     {
         CurrentLampState = LampState;
         Lamp->FPower->setVal(CurrentLampState);
+        digitalWrite(SWITCH_CONTROL_PIN, LampState ? HIGH : LOW);
     }
 
     homeSpan.poll();
