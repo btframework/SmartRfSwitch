@@ -1,6 +1,6 @@
 # Smart RF Switch
   **433Mhz RF Switch to HomeKit connection**
-  
+   
   Smart light bulbs, smart relays, and other “smart” devices in the home are cool. But! There's always that damn “but.” At 3 a.m., when everyone is asleep, yelling, “Hey Siri! Turn on the kitchen light” is not a good idea. And constantly reaching for your smartphone to turn something on or off is also not a good idea. You can, of course, put motion sensors in, but there are nuances with them. So you can't do without switches.
 
   My first impulse was to buy a switch that is compatible with my smart home system (and I have an Apple Home, mind you). I looked at what was on sale. First of all, most are from the Chinese and required their own application that somehow cleverly threw something there somewhere. Secondly, which is quite sad, most required a prepared wiring or ZigBee gateway, or both. In general, the option fell away for several reasons.
