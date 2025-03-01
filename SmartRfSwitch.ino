@@ -55,7 +55,7 @@ void IRAM_ATTR SwitchSignalInterrupt()
 // Arduino initialization routine.
 void setup()
 {
-        // Initialize debug serial port.
+    // Initialize debug serial port.
     Serial.begin(115200);
 
     // Initialize pins.
