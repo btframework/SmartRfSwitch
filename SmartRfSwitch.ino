@@ -1,4 +1,20 @@
-//ESP32C3FN4 SuperMini Board
+// ESP32C3FN4 SuperMini Board
+// ===============================================================
+// Arduino IDE settings:
+//   - Board: ESP32C3 Dev BModule
+//   - ESP CDC On Boot: Enabled
+//   - CPU Frequency: 80MHz (WiFi)
+//   - Core Debug Level: None
+//   - Erase All Flash Before Sketch Upload: Disabled
+//   - Flash frequency: 80Mhz
+//   - Flash Mode: QIO
+//   - Flash Size: 4MB (32Mb)
+//   - JTAG Adapter: Disabled
+//   - Partition Scheme: Huge APP (3MB No OTA/1MB SPIFFS)
+//   - Upload Speed: 921600
+//   - Zigbee Mode: Disabled
+//   - Programmer: Esptool
+// ===============================================================
 
 #include <HomeSpan.h>
 
