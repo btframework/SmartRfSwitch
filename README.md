@@ -1,5 +1,29 @@
 # Smart RF Switch
-  **433Mhz RF Switch to HomeKit connection**
+
+ **Required Hardware**
+ - 433Mhz RF switch and relay set
+ - ESP32C4FN Super Mini
+ 
+ **Required Arduino Libraries**
+ - esp32 by Espressif Systems (board) 3.2.0
+ - HomeSpan 2.1.1
+ 
+ **Arduino IDE Settings**
+ - Board: ESP32C3 Dev BModule
+ - ESP CDC On Boot: Enabled
+ - CPU Frequency: 80MHz (WiFi)
+ - Core Debug Level: None
+ - Erase All Flash Before Sketch Upload: Disabled
+ - Flash frequency: 80Mhz
+ - Flash Mode: QIO
+ - Flash Size: 4MB (32Mb)
+ - JTAG Adapter: Disabled
+ - Partition Scheme: Huge APP (3MB No OTA/1MB SPIFFS)
+ - Upload Speed: 921600
+ - Zigbee Mode: Disabled
+ - Programmer: Esptool
+
+## 433Mhz RF Switch to HomeKit connection
    
   Smart light bulbs, smart relays, and other “smart” devices in the home are cool. But! There's always that damn “but.” At 3 a.m., when everyone is asleep, yelling, “Hey Siri! Turn on the kitchen light” is not a good idea. And constantly reaching for your smartphone to turn something on or off is also not a good idea. You can, of course, put motion sensors in, but there are nuances with them. So you can't do without switches.
 
