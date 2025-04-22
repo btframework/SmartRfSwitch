@@ -23,6 +23,8 @@
  - Zigbee Mode: Disabled
  - Programmer: Esptool
 
+This repository contains firmware for the HomeKit device described in [this video](https://youtu.be/C4awq37Im1w).
+
 ## 433Mhz RF Switch to HomeKit connection
    
   Smart light bulbs, smart relays, and other “smart” devices in the home are cool. But! There's always that damn “but.” At 3 a.m., when everyone is asleep, yelling, “Hey Siri! Turn on the kitchen light” is not a good idea. And constantly reaching for your smartphone to turn something on or off is also not a good idea. You can, of course, put motion sensors in, but there are nuances with them. So you can't do without switches.
